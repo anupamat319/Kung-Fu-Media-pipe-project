@@ -1,6 +1,6 @@
 # 🥋 AI Kung Fu Stance Recognition System
 
-## 📌 Overview
+##  Overview
 The **AI Kung Fu Stance Recognition System** is a real-time computer vision application developed using **Python, MediaPipe, OpenCV, and NumPy**.  
 It detects and classifies traditional Kung Fu stances through a live webcam feed by analyzing human body pose landmarks and joint angles.
 
@@ -8,7 +8,7 @@ This project demonstrates the practical use of **AI-based pose estimation** and 
 
 ---
 
-## 🥋 Supported Kung Fu Stances
+## Supported Kung Fu Stances
 The system recognizes the following stances in real time:
 
 1. MA BU (Horse Stance)  
@@ -22,18 +22,8 @@ The system recognizes the following stances in real time:
 
 ---
 
-## ⚙️ How It Works
-- Captures live video using a webcam
-- Extracts human pose landmarks using **MediaPipe Pose**
-- Calculates joint angles (knees, hips, ankles)
-- Normalizes distances using torso length
-- Applies rule-based logic to classify Kung Fu stances
-- Uses a temporal buffer to smooth predictions
-- Displays stance name and color feedback in real time
 
----
-
-## 🛠️ Technologies Used
+## Technologies Used
 - Python  
 - MediaPipe  
 - OpenCV  
@@ -43,7 +33,7 @@ The system recognizes the following stances in real time:
 
 ---
 
-## 🚀 Features
+## Features
 - Real-time stance recognition
 - AI-powered pose estimation using MediaPipe
 - Stable predictions with temporal smoothing
